@@ -146,9 +146,9 @@ export default function DashboardPage() {
                 <h4 className="text-sm font-black uppercase tracking-widest text-slate-900">Research Contributors</h4>
                 <div className="grid grid-cols-2 gap-x-8 gap-y-4 text-[10px] text-slate-500 font-bold uppercase tracking-wider">
                   {[
+                    { name: "Mr. R Rohith Babu", role: "Assistant Professor (Guide), VIIT" },
                     { name: "M Rishi Dev", role: "Dept. of Civil Engineering, VIIT" },
                     { name: "P Santhosh", role: "Dept. of Civil Engineering, VIIT" },
-                    { name: "R Rohith Babu", role: "Dept. of Civil Engineering, VIIT" },
                     { name: "G Krishnam Raju", role: "Dept. of Civil Engineering, VIIT" },
                     { name: "K Sagar", role: "Dept. of Civil Engineering, VIIT" },
                   ].map((author, index) => (

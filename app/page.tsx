@@ -7,9 +7,9 @@ import { GraduationCap, ShieldCheck, Map, Database, Info, FileText } from "lucid
 
 export default function Home() {
   const authors = [
+    { name: "Mr. R Rohith Babu", dept: "Asst. Professor (Guide), VIIT" },
     { name: "M Rishi Dev", dept: "Civil Engineering, VIIT" },
     { name: "P Santhosh", dept: "Civil Engineering, VIIT" },
-    { name: "R Rohith Babu", dept: "Civil Engineering, VIIT" },
     { name: "G Krishnam Raju", dept: "Civil Engineering, VIIT" },
     { name: "K Sagar", dept: "Civil Engineering, VIIT" },
   ];
@@ -30,7 +30,7 @@ export default function Home() {
           </div>
           <div className="flex items-center gap-3 sm:gap-6 2xl:gap-10">
             <span className="hidden lg:block text-[10px] 2xl:text-xs font-bold text-slate-400 border-x px-4 border-slate-200 dark:border-slate-800 uppercase tracking-widest text-center">
-              Vijayawada Research Region<br/>VIIT Department of Civil Engineering
+              Vijayawada Research Region<br/>Vignan Institute of Information Technology
             </span>
             <ThemeToggle />
           </div>
